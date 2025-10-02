@@ -13,6 +13,16 @@
 	
 	<div class="d01">
 		d01
+		<b><p id="kolor">PROMOCJA.</p></b>
+<script>
+function kolorzmiana() {
+  const colors = ["red", "green", "blue", "blchocolateack", "lightblue"];
+  const element = document.getElementById("kolor");
+  const randomIndex = Math.floor(Math.random() * colors.length);
+  element.style.color = colors[randomIndex];
+}
+setInterval(kolorzmiana, 10); 
+</script>
 	</div>
 	<div class="d02">
 		d02

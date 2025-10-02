@@ -9,7 +9,12 @@ body{
 
 .d01{
 	height: 40px;
-
+	height: 40px;
+	background-color: azure;
+	color: aquamarine;
+#kolor {
+  color: rgb(103, 70, 224); 
+}
 }
 .d02{
 	height: 40px;
