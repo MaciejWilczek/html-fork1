@@ -13,13 +13,14 @@ body{
 }
 .d02{
 	height: 40px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: blueviolet;
-background-color: brown;
+
 }
 .d03{
 	height: 40px;
-
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: yellowgreen;
+background-color: blueviolet;
 }
 .d04{
 	height: 40px;
