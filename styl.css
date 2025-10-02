@@ -9,7 +9,12 @@ body{
 
 .d01{
 	height: 40px;
-
+	height: 40px;
+	background-color: azure;
+	color: aquamarine;
+#kolor {
+  color: rgb(103, 70, 224); 
+}
 }
 .d02{
 	height: 40px;
@@ -17,7 +22,10 @@ body{
 }
 .d03{
 	height: 40px;
-
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: yellowgreen;
+background-color: blueviolet;
 }
 .d04{
 	height: 40px;
@@ -25,11 +33,12 @@ body{
 }
 .d05{
 	height: 40px;
-
+background-color: aqua;
 }
 .d06{
 	height: 40px;
-
+	background-color: darkred;
+	color: aqua;
 }
 .d07{
 	height: 40px;
@@ -71,28 +80,48 @@ body{
 	height: 40px;
 
 }
+@keyframes animacjamb {
+	0% {background-color: red; font-size:10px;}
+	25% {background-color: yellow; font-size:15px;}
+	50% {background-color: green; font-size:20px;}
+	75% {background-color: blue; font-size:25px;}
+	100% {background-color: purple; font-size:30px;}
+}
 .d14{
 	height: 40px;
-
+	background-color: red;
+	animation-name: animacjamb;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	border:1px solid gray;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 5px;
+	font-family: monospace;
 }
 .d15{
 	height: 40px;
-
+	background-color: red;
+	font-family: cursive;
+	font-weight: bold;
+	text-decoration: none;
 }
 .pope{
 	height:40px;
 }
 .d16{
 	height: 40px;
-
+	background-color: beige; color: black;
+	font-weight: bold; text-decoration: line-through;
 }
 .d17{
 	height: 40px;
-
+	background-color: bisque;
+	color:maroon;
 }
 .d18{
 	height: 40px;
-
 }
 .d19{
 	height: 40px;
