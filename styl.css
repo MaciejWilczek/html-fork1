@@ -54,7 +54,9 @@ body{
 }
 .d10{
 	height: 40px;
-
+	text-align: center;
+	color: white;
+	animation: mojaanimacja 2s infinite;
 }
 .d11{
 	height: 40px;
@@ -91,16 +93,20 @@ body{
 .d18{
 	height: 40px;
 
-
+}
 .d19{
 	height: 40px;
 
 }
-
-
-
 .stopka{
 	height: 40px;
 
 
+}
+
+@keyframes mojaanimacja {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
 }
