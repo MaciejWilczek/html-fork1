@@ -13,7 +13,9 @@ body{
 }
 .d02{
 	height: 40px;
-
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: blueviolet;
+background-color: brown;
 }
 .d03{
 	height: 40px;
@@ -88,7 +90,7 @@ body{
 }
 .d18{
 	height: 40px;
-
+}
 
 .d19{
 	height: 40px;
