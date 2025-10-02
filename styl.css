@@ -80,7 +80,8 @@ body{
 }
 .d16{
 	height: 40px;
-
+	background-color: beige; color: black;
+	font-weight: bold; text-decoration: line-through;
 }
 .d17{
 	height: 40px;
@@ -88,7 +89,7 @@ body{
 }
 .d18{
 	height: 40px;
-
+}
 
 .d19{
 	height: 40px;
